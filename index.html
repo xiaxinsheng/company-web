@@ -3,45 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[你的公司英文名] - Innovation in Technology</title>
+    <title>Shenzhen Rongxing Network Technology Co., Ltd.</title>
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 60px 20px; }
-        header { padding-bottom: 20px; margin-bottom: 40px; border-bottom: 2px solid #007AFF; }
-        .logo { font-size: 26px; font-weight: 800; color: #007AFF; letter-spacing: -1px; }
-        .hero { background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); padding: 60px 40px; border-radius: 16px; text-align: center; margin-bottom: 40px; }
-        h1 { margin: 0; font-size: 28px; color: #1a1a1a; }
-        .section { margin-bottom: 40px; }
-        .footer { font-size: 13px; color: #666; border-top: 1px solid #eee; padding-top: 30px; margin-top: 60px; }
-        .contact-info { background: #f9f9f9; padding: 20px; border-radius: 8px; border-left: 4px solid #007AFF; }
+        :root { --primary-color: #007AFF; --text-dark: #1d1d1f; --text-light: #86868b; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.5; color: var(--text-dark); margin: 0; padding: 0; background-color: #fff; }
+        .container { max-width: 980px; margin: 0 auto; padding: 0 22px; }
+        header { padding: 48px 0; border-bottom: 1px solid #d2d2d7; }
+        .logo { font-size: 24px; font-weight: 600; color: var(--primary-color); }
+        .hero { padding: 80px 0; text-align: center; }
+        h1 { font-size: 48px; font-weight: 700; letter-spacing: -0.015em; margin-bottom: 24px; }
+        .intro { font-size: 21px; color: var(--text-light); max-width: 700px; margin: 0 auto 40px; }
+        .section { padding: 60px 0; border-top: 1px solid #d2d2d7; }
+        h2 { font-size: 32px; font-weight: 600; margin-bottom: 20px; }
+        .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 30px; }
+        .info-item h3 { font-size: 17px; margin-bottom: 8px; color: var(--text-dark); }
+        .info-item p { font-size: 15px; color: var(--text-light); margin: 0; }
+        footer { padding: 40px 0; background-color: #f5f5f7; color: var(--text-light); font-size: 12px; }
+        .footer-links { margin-bottom: 20px; }
+        .footer-links a { color: var(--text-light); text-decoration: none; margin-right: 15px; }
+        .footer-links a:hover { text-decoration: underline; }
+        @media (max-width: 734px) {
+            h1 { font-size: 32px; }
+            .info-grid { grid-template-columns: 1fr; }
+        }
     </style>
 </head>
 <body>
+
+<div class="container">
     <header>
-        <div class="logo">[公司名称简写]</div>
+        <div class="logo">Shenzhen Rongxing Network</div>
     </header>
 
-    <main>
-        <div class="hero">
-            <h1>Building the Future of Digital Tools</h1>
-            <p>We specialize in creating intuitive mobile applications that simplify daily tasks and enhance productivity.</p>
+    <section class="hero">
+        <h1>Innovation in Mobile Solutions</h1>
+        <p class="intro">We are dedicated to building intuitive, efficient digital tools that empower productivity and streamline daily tasks for users worldwide.</p>
+    </section>
+
+    <section class="section">
+        <h2>Corporate Information / 公司信息</h2>
+        <div class="info-grid">
+            <div class="info-item">
+                <h3>Legal Entity Name / 公司全称</h3>
+                <p>Shenzhen Rongxing Network Technology Co., Ltd.</p>
+                <p>深圳市荣星网络技术有限公司</p>
+            </div>
+            <div class="info-item">
+                <h3>Contact Email / 联系邮箱</h3>
+                <p>dev@zydjb.com</p>
+            </div>
+            <div class="info-item">
+                <h3>Registered Address / 注册地址</h3>
+                <p>Room 602, Unit 1, Building B, Zhongshang Garden, No. 10 Jia'an Road, Anle Community, Xin'an Street, Bao'an District, Shenzhen, China.</p>
+                <p>深圳市宝安区新安街道安乐社区甲岸路10中商花园B栋一单元602</p>
+            </div>
+            <div class="info-item">
+                <h3>Business Scope / 业务范围</h3>
+                <p>Mobile Application Development, Software Technology Services.</p>
+                <p>移动应用开发、软件技术服务。</p>
+            </div>
         </div>
+    </section>
+</div>
 
-        <section class="section">
-            <h2>Our Vision</h2>
-            <p>Our team is dedicated to developing high-quality software solutions for educational and professional environments. We are currently working on several innovative projects set to launch in 2026.</p>
-        </section>
+<footer>
+    <div class="container">
+        <div class="footer-links">
+            <a href="#">Support</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Use</a>
+        </div>
+        <p>Copyright &copy; 2026 Shenzhen Rongxing Network Technology Co., Ltd. All rights reserved.</p>
+    </div>
+</footer>
 
-        <section class="section contact-info">
-            <h3>Corporate Information</h3>
-            <p><strong>Entity Name:</strong> [公司英文全称]</p>
-            <p><strong>Office:</strong> [你的公司地址]</p>
-            <p><strong>Inquiries:</strong> [你的企业邮箱]</p>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <p>&copy; 2026 [公司英文全称]. All rights reserved.</p>
-        <p>Privacy Policy | Terms of Service | Support</p>
-    </footer>
 </body>
 </html>
